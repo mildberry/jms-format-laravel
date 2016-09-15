@@ -16,6 +16,11 @@
       "email": "e.zyuskin@mildberry.com"
     }
   ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
   "autoload": {
     "psr-4": {
       "Mildberry\\JMSFormat\\": "src/"
