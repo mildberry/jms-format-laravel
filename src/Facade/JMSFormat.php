@@ -3,7 +3,6 @@
 namespace Mildberry\JMSFormat\Facade;
 
 use Illuminate\Support\Facades\Facade;
-use Mildberry\JMSFormat\JMSFormatter;
 
 /**
  * @author Egor Zyuskin <e.zyuskin@mildberry.com>
@@ -17,6 +16,6 @@ class JMSFormat extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return JMSFormatter::class;
+        return 'jmsformat';
     }
 }

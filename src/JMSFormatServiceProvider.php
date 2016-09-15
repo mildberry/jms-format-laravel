@@ -16,8 +16,8 @@ class JMSFormatServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(JMSFormatter::class, function () {
-            return new JMSFormatter();
+        $this->app->singleton('jmsformat', function () {
+            return new JMSFormat();
         });
     }
 }
