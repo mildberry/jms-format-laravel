@@ -1,0 +1,24 @@
+{
+  "name": "mildberry/jms-format-laravel",
+  "description": "JMS format service provider and facade for laravel 5.x framework",
+  "keywords": ["jms-format", "laravel", "serviceproviders", "facades"],
+  "type": "library",
+  "homepage": "https://github.com/mildberry/jms-format-laravel",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4",
+    "mildberry/jms-format": "@dev",
+    "illuminate/support"  : "~5.2"
+  },
+  "authors": [
+    {
+      "name": "Egor Zyuskin",
+      "email": "e.zyuskin@mildberry.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mildberry\\JMSFormat\\": "src/"
+    }
+  }
+}
