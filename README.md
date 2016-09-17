@@ -28,7 +28,7 @@ Find the `providers` array key in `config/app.php` and register the **JMSFormat 
 )
 ```
 
-After register service provider use facade JMSFormat
+After register service provider use facade **JMSFormat**
 
 ``` php
 <?php
