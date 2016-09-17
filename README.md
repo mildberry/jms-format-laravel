@@ -11,6 +11,8 @@ Require
 Install
 -------
 
+Install via composer
+
 ``` bash
 $ composer require mldberry/jms-format-laravel
 ```
