@@ -5,7 +5,7 @@ Require
 -------
 
 - php >= 5.4
-- mildberry/jms-format >= 0.0.1
+- mildberry/jms-format >= 0.0.5
 - illuminate/support  >= 5.2
 
 Install
