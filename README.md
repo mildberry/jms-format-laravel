@@ -4,8 +4,8 @@ JMS format service provider and facade for laravel 5.x framework
 Require
 -------
 
-- php >= 5.4
-- mildberry/jms-format >= 0.0.5
+- php >= 5.5
+- mildberry/jms-format >= 0.0.6
 - illuminate/support  >= 5.2
 
 Install

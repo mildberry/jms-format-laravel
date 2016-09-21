@@ -6,8 +6,8 @@
   "homepage": "https://github.com/mildberry/jms-format-laravel",
   "license": "MIT",
   "require": {
-    "php": ">=5.4",
-    "mildberry/jms-format": "~0.0.5",
+    "php": ">=5.5",
+    "mildberry/jms-format": "~0.0.6",
     "illuminate/support"  : "~5.2"
   },
   "authors": [
